@@ -4,7 +4,7 @@ cuenta_elementos([], 0).
 cuenta_elementos([_|L], N) :- cuenta_elementos(L,Tam), N is Tam+1.
 
 %Pruebas
-%cuenta_elementos([4,2,7,8,9], N).
+%cuenta_elementos([4,2,4,5,1,7,8,9], N).
 %cuenta_elementos([1,2,3,4], N).
 %cuenta_elementos([6,2,4,0,1,0], N).
 
